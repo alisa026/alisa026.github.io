@@ -1,0 +1,60 @@
+//need 3 or 4 more selectors
+.mainpage-body {
+    background-color: #E0FFFF;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+.welcome {
+    text-align: center;
+    font-family: georgia;
+    font-size: 6rem;
+    font-weight: 300;
+}
+a:visited {
+  color: pink;
+}
+.muffinheader {
+    text-align: center;
+    background-color: #DEEFF7;
+    color: #100934;
+    font-size: 5rem;
+}
+.card-title {
+    text-align: center;
+    font-family: "Lucida Handwriting";
+}
+.purple-background {
+    background-color: #735AF1;
+}
+
+.centered
+{
+     padding: 70px 0;
+     text-align: center;
+}
+.blueberry-text
+{
+    color: #FFFFFF;
+    font-size: 12rem;
+}
+ul
+{
+    font-size: 2rem;
+    font-family: Garamond, monospace;
+}
+ol {
+    font-size: 2rem;
+    font-family: times;
+}
+:hover
+{
+    background-color: #CDDAFC;
+}
+h1::first-letter
+{
+    color: #120546;
+}
