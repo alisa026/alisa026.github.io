@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!--https://stackoverflow.com/questions/2173229/how-do-i-write-a-rgb-color-value-in-javascript-->
+    <script>
+      function colorchange()
+      {
+        let body = document.querySelector('body');
+        if (body.style.backgroundColor == 'rgb(115, 90, 241)')
+        {
+          body.style.backgroundColor = 'rgb(60, 111, 237)';
+        }
+        else
+        {
+          body.style.backgroundColor = 'rgb(115, 90, 241)';
+        }
+      }
+      window.setInterval(colorchange, 600);
+    </script>
+    <title>blueberries</title>
+
+    <!-- Links to pages -->
+  </head>
+  <body class="purple-background">
+    <ul class="nav justify-content-center">
+      <!-- recipes-->
+      <li class="nav-item">
+          <a class="nav-link" href="index">homepage</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="recipes.html">recipes</a>
+      </li>
+      <!--photo album link-->
+      <li class="nav-item">
+        <a class="nav-link" href="photo-album">a mini photo album of me</a>
+      </li>
+    </ul>
+      <p class="centered blueberry-text">blueberries!</p>
+      <a href="https://www.thespruce.com/growing-blueberries-1401960" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">grow them</a>
+      <a href="https://www.google.com/maps/search/coop/@43.7150577,-72.3336157,13z/data=!3m1!4b1" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">purchase them</a>
+      <a href="https://www.google.com/maps/place/Super+Acres/@43.8639788,-72.1713523,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb4bf89a9eb501d:0x9a8b7132aa3533a6!8m2!3d43.863975!4d-72.1691583" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">pick them </a>
+
+  </body>
+</html>
